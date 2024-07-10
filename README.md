@@ -4,8 +4,7 @@ Got it! Here’s a README template for your online store project using Clerk, Ta
 
 <h1 align="center">
   <br>
-  <a href="http://www.example.com"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
-  <br>
+  
   Online Store
   <br>
 </h1>
@@ -142,7 +141,7 @@ MIT
 
 ---
 
-> [your-website.com](https://www.your-website.com) &nbsp;&middot;&nbsp;
+
 > GitHub [@amuari](https://github.com/your-username) &nbsp;&middot;&nbsp;
 > Twitter [@your-twitter-handle](https://twitter.com/amuaridev)
 
