@@ -5,7 +5,7 @@ Got it! Here’s a README template for your online store project using Clerk, Ta
 <h1 align="center">
   <br>
   
-  Online Store
+Sorisso Online Store
   <br>
 </h1>
 
