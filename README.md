@@ -1,4 +1,3 @@
-Got it! Here’s a README template for your online store project using Clerk, Tailwind, TypeScript, and Clerk Auth:
 
 ---
 
