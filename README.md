@@ -40,10 +40,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/amuari/sorisso-store/edit/main/README.md
+$ git clone https://github.com/amuari/sorisso-store
 
 # Go into the repository
-$ cd online-store
+$ cd my-app
 
 # Install dependencies
 $ npm install
