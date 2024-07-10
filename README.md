@@ -143,7 +143,7 @@ MIT
 
 
 > GitHub [@amuari](https://github.com/your-username) &nbsp;&middot;&nbsp;
-> Twitter [@your-twitter-handle](https://twitter.com/amuaridev)
+> Twitter (https://twitter.com/amuaridev)
 
 ---
 
