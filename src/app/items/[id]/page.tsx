@@ -3,6 +3,7 @@
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import { Product } from '@/app/types/Product'
+import Link from 'next/link'
 
 async function getProduct(id: string): Promise<Product | null> {
   const res = await fetch(`https://fakestoreapi.com/products/${id}`)
@@ -56,26 +57,12 @@ const ProductPage = async ({ params }: ProductPageProps) => {
             <li>Made with sustainable materials and eco-friendly processes</li>
           </ul>
         </div>
-        {/* <div className='mt-6'>
-          <h4 className='text-lg font-semibold mb-2'>Specifications</h4>
-          <div className='grid grid-cols-2 gap-4'>
-            <div>
-              <span className='font-medium'>Connectivity:</span> Bluetooth 5.0
-            </div>
-            <div>
-              <span className='font-medium'>Drivers:</span> 40mm dynamic
-            </div>
-            <div>
-              <span className='font-medium'>Frequency Response:</span> 20Hz -
-              20kHz
-            </div>
-            <div>
-              <span className='font-medium'>Impedance:</span> 32 Ohms
-            </div>
-          </div>
-        </div> */}
+        <Link href='/items'>
+          <button className='w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm'>
+            Back to Items
+          </button>
+        </Link>
       </div>
-      {/* </Link> */}
     </div>
   )
 }
