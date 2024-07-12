@@ -5,7 +5,7 @@ import HeroSection from './ui/HeroSection'
 import Skeleton from './ui/Skeleton'
 import { Suspense } from 'react'
 import { motion } from 'framer-motion'
-// import HeroImage from './ui/HeroImage'
+import HeroImage from './ui/HeroImage'
 
 export default function Home() {
   return (
@@ -17,8 +17,8 @@ export default function Home() {
     >
       <Suspense fallback={<Skeleton />}>
         <HomePage />
+        <HeroImage />
         <HeroSection />
-        {/* <HeroImage /> */}
       </Suspense>
     </motion.main>
   )
