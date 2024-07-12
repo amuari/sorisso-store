@@ -17,7 +17,7 @@ const Page = async () => {
   const data = await getData()
 
   return (
-    <div className='px-10 py-32 sm:grid grid-rows-1-1 gap-4  md: grid-cols-2 '>
+    <div className='px-10 py-32 sm:grid grid-rows-1-1 gap-4  md: grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 '>
       {data.map((product) => (
         <div
           className='bg-background rounded-lg shadow-lg overflow-hidden transition-transform duration-300 ease-in-out hover:shadow-xl hover:-translate-y-2 w-full max-w-sm '
