@@ -58,10 +58,10 @@ const MinimalSocialsFooter = () => {
         </a>{' '}
       </p>
       <div className='flex gap-4'>
-        <SocialLink href='https://twitter.com/justansub' icon={XIcon}>
+        <SocialLink href='https://twitter.com/amuaridev' icon={XIcon}>
           Follow me on X
         </SocialLink>
-        <SocialLink href='http://github.com/ansub' icon={GitHubIcon}>
+        <SocialLink href='http://github.com/amuari' icon={GitHubIcon}>
           Follow me on GitHub
         </SocialLink>
         <SocialLink href='https://discord.gg/P8GXYyH3ZU' icon={DiscordIcon}>
