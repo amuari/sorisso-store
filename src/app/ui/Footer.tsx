@@ -64,9 +64,9 @@ const MinimalSocialsFooter = () => {
         <SocialLink href='http://github.com/amuari' icon={GitHubIcon}>
           Follow me on GitHub
         </SocialLink>
-        <SocialLink href='https://discord.gg/P8GXYyH3ZU' icon={DiscordIcon}>
+        {/* <SocialLink href='https://discord.gg/P8GXYyH3ZU' icon={DiscordIcon}>
           Join the Discord
-        </SocialLink>
+        </SocialLink> */}
       </div>
     </div>
   )
